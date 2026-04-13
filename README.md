@@ -1,16 +1,42 @@
-# React + Vite
+# Travel Advisor
+A map-based travel companion designed to help users discover the best local spots and plan their trips with real-time data.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Interactive Mapping:** Full integration with Google Maps API for real-time location exploration.
+* **Dynamic Discovery:** Fetches restaurants, hotels, and attractions based on the current map view.
+* **Weather Integration:** Real-time weather updates for the selected area via Open-Meteo API.
+* **Smart Filtering:** Filter results by rating or category (Restaurants, Hotels, or Attractions).
+* **Responsive UI:** Built with Mantine for a sleek, professional, and mobile-friendly experience.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the ESLint configuration
+* **Frontend:** React.js
+* **UI Library:** Mantine / Material UI
+* **APIs:** * Google Maps JavaScript API
+    * Travel Advisor (via RapidAPI)
+    * Open-Meteo (Weather Data)
+* **State Management:** React Hooks (`useState`, `useEffect`, `createRef`)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Installation and Setup
+
+Follow these steps to get a local copy up and running:
+
+1. **Clone the repository**
+   ```
+   git clone [https://github.com/TanvikaOjha/Travel-Advisor.git](https://github.com/TanvikaOjha/Travel-Advisor.git)
+   cd travel-advisor
+   ```
+2. **Install Dependencies**
+   '''
+      npm install
+   ```
+3. **Set up environment variables**
+4. **Start the development server**
+      
